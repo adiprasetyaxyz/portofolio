@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently Still Improve my Skill",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,35 +72,39 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "Garment Manager",
+    des: " A comprehensive application designed to manage garment inventory and provide an intuitive dashboard.",
+    img: "/Frame2.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/vercel.svg"],
+    link: "https://github.com/adiprasetyaxyz/garment-manager",
+    link2: "https://garment-manager.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "Movie Website",
+    des: "A dynamic website showcasing the latest movies, offering users an updated catalog of new releases.",
+    img: "/Frame1.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/vercel.svg"],
+    link: "https://github.com/adiprasetyaxyz/FilmWebsite",
+    link2: "https://film-website-nine.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "Satu Darah",
+    des: "A key project designed to boost blood donation awareness and participation across Indonesia, offering accurate blood stock information and connecting donors with blood centers and healthcare services.",
+    img: "/Frame3.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/vercel.svg"],
+    link: "https://github.com/adiprasetyaxyz/satu-darah",
+    link2: "https://satu-darah-k4de.vercel.app//",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "Recipe App",
+    des: "A user-friendly application that curates a list of recipes, making it easy for users to discover and prepare delicious meals.",
+    img: "/Frame4.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/vercel.svg"],
+    link: "https://github.com/adiprasetyaxyz/recipe-app",
+    link2: "https://recipe-app-delta-woad.vercel.app/",
   },
 ];
 
@@ -173,31 +177,17 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Bootcamp Front-end & Backend",
+    desc: "Completed an intensive bootcamp in front-end and back-end development, acquiring skills in building full-stack applications and mastering modern web technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Personal Project",
+    desc: "Developed a variety of applications, demonstrating proficiency in different areas of web development and problem-solving.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 

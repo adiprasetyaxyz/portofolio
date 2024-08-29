@@ -15,6 +15,7 @@ export const HoverEffect = ({
     title: string;
     des: string;
     link: string;
+    link2: string;
     img?: string;
     iconLists: any[];
     id: number;
@@ -76,7 +77,7 @@ export const HoverEffect = ({
               </div>
               <div className="flex justify-center items-center gap-2">
                 <Link
-                  href={item.link}
+                  href={item.link2}
                   className="mt-3  gap-1 flex justify-center items-center align-middle text-purple text-xs hover:-translate-y-1 transform transition duration-200 hover:shadow-md"
                 >
                   <p>Web</p>
