@@ -95,7 +95,7 @@ export const projects = [
     img: "/Frame3.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/vercel.svg"],
     link: "https://github.com/adiprasetyaxyz/satu-darah",
-    link2: "https://satu-darah-k4de.vercel.app//",
+    link2: "https://satu-darah-k4de.vercel.app/",
   },
   {
     id: 4,
